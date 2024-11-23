@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM Landing page</title>
+    <!-- Global bootstrap CDN V5.3.2 for ltr -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Global main css file for ltr  -->
+    <link rel="stylesheet" href="./content/css/main-ltr.css" />
+  </head>
+
+  <body>
+    <!-- Top Banner -->
+
+    <div
+      class="toast show banner"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="toast_continer">
+        <button
+          type="button"
+          class="btn btn_close"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        >
+          <img src="./content/assets/images/cancel.svg" alt="" />
+        </button>
+
+        <p>هناك المزيد من المميزات القادمة تسهل عملك أكثر 🚀</p>
+      </div>
+    </div>
+    <!-- Top Banner -->
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a class="navbar-brand" href="#">
+          <img src="./content/assets/images/logo.svg" alt="" />
+        </a>
+
+        <div class="" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >الصفحة الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المساعدة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">التسعير</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="lang_btns_container">
+        <a class="btn btn_switch_lang" aria-current="page" href="#"
+          ><img src="./content/assets/images/ar.svg" alt=""
+        /></a>
+
+        <div class="btns_container">
+          <a class="btn btn_login" aria-current="page" href="#">تسجيل الدخول</a>
+          <a class="btn btn_start" aria-current="page" href="#">ابدأ مجانًا</a>
+        </div>
+      </div>
+
+      <div
+        class="bars"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+      >
+        <img src="./content/assets/images/bars.png" alt="" />
+      </div>
+    </nav>
+    <!-- responsive navbar -->
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="navbar-responsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >الصفحة الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">المساعدة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">التسعير</a>
+            </li>
+          </ul>
+          <div class="btns_container">
+            <a class="btn btn_login" aria-current="page" href="#"
+              >تسجيل الدخول</a
+            >
+            <a class="btn btn_start" aria-current="page" href="#"
+              >ابدأ مجانًا</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <main>
+      <!-- hero -->
+      <header class="hero_sec">
+        <div class="badge_container">
+          <span class="bg_pink">جديد </span> اتطلع للمميزات الجديدة
+        </div>
+
+        <h1 class="title">جهد أقل ، <span class="bg_pink">ربح</span> أكثر</h1>
+        <p class="subtitle">
+          يعمل Value CRM، القوي والمرن والمعتمد على البيانات، على تسهيل إنشاء
+          نظام إدارة علاقات العملاء (CRM) الذي يحتاجه عملك.
+        </p>
+        <div class="btns_container">
+          <a class="btn btn_talk" href=""> تحدث إلينا</a>
+          <a class="btn btn_start" href=""> ابدأ مجانًا </a>
+        </div>
+      </header>
+
+      <section class="video_sec">
+        <div class="container">
+          <div
+            class="video_container"
+            style="
+              background-image: url('./content/assets/images/video_sec_bg.svg');
+            "
+          >
+            <div class="iframe_container">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/JGwtVbOz528?si=dlsO_mSZ5tfYucAE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients_logos_sec">
+        <div class="container">
+          <div class="logos_container">
+            <img src="./content/assets/images/client1.png" alt="" />
+            <img src="./content/assets/images/client2.png" alt="" />
+            <img src="./content/assets/images/client3.png" alt="" />
+            <img src="./content/assets/images/client4.png" alt="" />
+            <img src="./content/assets/images/client5.png" alt="" />
+            <img src="./content/assets/images/client6.png" alt="" />
+            <img src="./content/assets/images/client7.png" alt="" />
+            <img src="./content/assets/images/client8.png" alt="" />
+            <img src="./content/assets/images/client9.png" alt="" />
+            <img src="./content/assets/images/client10.png" alt="" />
+            <img src="./content/assets/images/client11.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="about_value_crm_sec">
+        <div class="container">
+          <div class="wrapper">
+            <div class="icon_container">
+              <img src="./content/assets/images/Box.png" alt="" />
+            </div>
+            <div class="value_container">
+              <h2 class="title">
+                يستهدف نظام Value CRM الكثير من الصناعات مثل:
+              </h2>
+              <p class="subtitle">
+                اكتشف حلول إدارة علاقات العملاء المتخصصة للعقارات والتسويق
+                والتوظيف لتحسين الإنتاجية وزيادة الأرباح.
+              </p>
+
+              <div class="cards_container">
+                <div class="row row-cols-1 row-cols-lg-3 gy-4">
+                  <div class="col">
+                    <div class="card_container">
+                      <div class="card_header">
+                        <div class="icon_container">
+                          <img src="./content/assets/images/bag.png" alt="" />
+                        </div>
+                        <h6 class="card_title">التوظيف</h6>
+                      </div>
+                      <p class="card_subtitle">
+                        مراقبة التقدم المحرز في خططك ومعالجة الانحرافات بشكل
+                        أسرع.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card_container middle_card">
+                      <div class="card_header">
+                        <div class="icon_container">
+                          <img
+                            src="./content/assets/images/microphone.png"
+                            alt=""
+                          />
+                        </div>
+                        <h6 class="card_title">التسويق الرقمي</h6>
+                      </div>
+                      <p class="card_subtitle">
+                        مراقبة التقدم المحرز في خططك ومعالجة الانحرافات بشكل
+                        أسرع.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card_container">
+                      <div class="card_header">
+                        <div class="icon_container">
+                          <img
+                            src="./content/assets/images/building.png"
+                            alt=""
+                          />
+                        </div>
+                        <h6 class="card_title">التوظيف</h6>
+                      </div>
+                      <p class="card_subtitle">
+                        مراقبة التقدم المحرز في خططك ومعالجة الانحرافات بشكل
+                        أسرع.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="more_clientes_sec">
+        <div class="container">
+          <h5 class="title">وأكثر من ذلك بكثير ...</h5>
+          <p class="subtitle">
+            عملاؤك متصلون دائمًا. ,لماذا يجب أن يكون نظام إدارة علاقات العملاء
+            الخاص بك مختلفًا؟
+          </p>
+          <div class="cards_container">
+            <div class="row row-cols-1 row-cols-lg-3">
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card1.png" alt="" />
+                  </div>
+                  <h6 class="card_title">إجراءات سريعة</h6>
+                  <p class="card_subtitle">
+                    قم بتبسيط سير عملك من خلال اختصارات قابلة للتخصيص.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card2.png" alt="" />
+                  </div>
+                  <h6 class="card_title">الإثراء التلقائي</h6>
+                  <p class="card_subtitle">
+                    قم بتحديث جهات الاتصال الخاصة بك بأحدث المعلومات حول الطيار
+                    الآلي.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card3.png" alt="" />
+                  </div>
+                  <h6 class="card_title">امتداد Chrome</h6>
+                  <p class="card_subtitle">
+                    حافظ على رشاقتك مع ملحق متصفح Attio خفيف الوزن.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card4.png" alt="" />
+                  </div>
+                  <h6 class="card_title">تحليل جهات الاتصال</h6>
+                  <p class="card_subtitle">
+                    احصل على رؤى أعمق لجهات الاتصال الخاصة بك بنظرة واحدة.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card5.png" alt="" />
+                  </div>
+                  <h6 class="card_title">المرشحون</h6>
+                  <p class="card_subtitle">
+                    قم بتبسيط سير عملك من خلال اختصارات قابلة للتخصيص.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card_container">
+                  <div class="img_container">
+                    <img src="./content/assets/images/card6.png" alt="" />
+                  </div>
+                  <h6 class="card_title">الفرز المتدرج</h6>
+                  <p class="card_subtitle">
+                    قم بتحديث جهات الاتصال الخاصة بك بأحدث المعلومات حول.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="more_clientes_sec client_testiomonial_sec">
+        <div class="container">
+          <h5 class="title">بعض اراء العملاء لدينا.</h5>
+          <p class="subtitle">
+            Value CRM هي نظام لإدارة علاقات العملاء لكل من يقدر التعاون.
+          </p>
+          <div>
+            <a class="btn btn_more_clients" href="">المزيد من العملاء:</a>
+          </div>
+          <div class="testimonial_cards_container">
+            <div class="row row-cols-1 row-cols-lg-3">
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="testimonial_card_container">
+                  <div class="testimonial_header_container">
+                    <div class="testimonial_header">
+                      <img src="./content/assets/images/Avatar.png" alt="" />
+                      <div>
+                        <p class="client_name">محمد منجي</p>
+                        <p class="client_title">مصمم تجربة وواجهة مستخدم</p>
+                      </div>
+                    </div>
+                    <img src="./content/assets/images/twitter.png" alt="" />
+                  </div>
+
+                  <p class="client_testimonial_content">
+                    نحن نستخدم نظام إدارة علاقات العملاء (CRM) الخاص بنا
+                    للمبيعات وجمع التبرعات والتوظيف. ,إنه رائع
+                  </p>
+                  <p class="date">4 يناير 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="logo_container">
+          <img src="./content/assets/images/logo.svg" alt="" />
+        </div>
+        <hr class="hr" />
+        <div class="links_conatiner">
+          <div class="copywright_sec">
+            <p>&copy; 2023 نيمبوس · جميع الحقوق محفوظة.</p>
+          </div>
+          <div class="links">
+            <a href="">مدة الاستخدام</a>
+            <a href="">سياسة الخصوصية</a>
+            <a href="">الأمن</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Global jquery CDN V3.7.1  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global Bootstrap CDN V5.3.2  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+      integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Global general Js File -->
+    <script src="./content/js/general.js"></script>
+  </body>
+</html>

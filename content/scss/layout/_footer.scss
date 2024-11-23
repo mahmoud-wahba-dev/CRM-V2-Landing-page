@@ -1,0 +1,38 @@
+.footer {
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 97px;
+
+  .logo_container {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  hr {
+    margin: 0;
+    border-color: #2222223d;
+    opacity: 1;
+  }
+  .links_conatiner {
+    padding-block: 25px;
+    display: flex;
+    justify-content: space-between;
+    .copywright_sec {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      color: #838b7f;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.64px;
+        color: #656b61;
+      }
+    }
+  }
+}
